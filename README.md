@@ -32,3 +32,7 @@
 * **開發者**：林彥丞 (ArtLife Software)
 * **授權**：本工具僅供個人免費使用，未經授權禁止商業販售或用於盈利目的。
 * **免責聲明**：軟體按「現狀」提供，作者不對使用本工具產生的任何資料損失負責。
+* 
+<img width="626" height="485" alt="Live_Folder_Monitor_1 0 0_主視窗" src="https://github.com/user-attachments/assets/39ed993c-0a86-4059-8003-e713309c91b4" />
+<img width="526" height="344" alt="Live_Folder_Monitor_1 0 0_管理監控路徑" src="https://github.com/user-attachments/assets/301f7d1a-a31c-49f6-93ab-fd8c6f8d3a64" />
+
