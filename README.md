@@ -7,36 +7,58 @@
 ![Latest Release](https://img.shields.io/github/v/release/ArtLife-Software/Live_Folder_Monitor?style=flat-square&color=blue)
 ![Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Live_Folder_Monitor/total?style=flat-square&logo=github)
 
-## 🚀 主要功能
+[](https://opensource.org/licenses/GPL-3.0)
+[](https://www.autohotkey.com/)
+[](https://www.microsoft.com/windows)
 
-這是一款輕量化的資料夾即時監控工具，能精準捕捉檔案系統的任何變動。
+**Live Folder Monitor** 是一款功能強大的即時資料夾監控工具，基於 AutoHotkey v2 開發。它能追蹤本地或網路路徑（UNC）中的檔案變動（新增、修改、刪除），並提供視覺化的日誌管理與即時通知，非常適合開發人員或需要自動化檔案追蹤的使用者。
 
-* **多路徑監控**：支援同時監控多個自訂路徑，包含區域網路內的「網路磁碟」或本機資料夾。
-* **即時變動提醒**：當監控路徑下的檔案發生 **新增、修改、刪除** 時，系統會立即顯示提醒通知。
-* **自動化日誌**：所有變動紀錄皆會自動存檔，方便後續追蹤與稽核檔案紀錄。
+## ✨ 核心特色
 
----
+  * **多路徑監控**：支援同時監控多個不同的資料夾，並可自定義是否包含子資料夾。
+  * **網路路徑支援**：完美支援 UNC 路徑（如 `\\Server\Folder`），適合辦公室環境使用。
+  * **離線變動偵測**：可開啟「結束時保存狀態」功能，下次啟動時會自動比對關機期間發生的檔案異動。
+  * **自定義掃描頻率**：可自由調整掃描間隔（1秒至3600秒）。
+  * **視覺化日誌與通知**：
+      * 內建 ListView 即時顯示變動資訊。
+      * 自動產生日誌檔案（按日期分類）。
+      * 具備淡入閃爍效果的自定義 Toast 通知彈窗。
+  * **強大右鍵功能**：日誌列表支援直接開啟檔案、定位路徑、複製檔案或將實體檔案移至回收桶。
 
-## 📖 操作說明
+## 🚀 快速開始
 
-1.  **設定路徑**：執行後於介面中新增您想要監控的資料夾路徑。
-2.  **啟動監控**：確認路徑無誤後啟動監控功能。
-3.  **查看記錄**：若檔案有變動，除了即時通知外，也可於存檔日誌中查看詳細變動時間與細節。
+### 1\. 安裝與運行
 
----
+  * **執行檔**：從 [Releases](https://github.com/ArtLife-Software) 下載最新編譯版本。
+  * **腳本運行**：確保已安裝 [AutoHotkey v2.0+](https://www.autohotkey.com/)，下載 `Live_Folder_Monitor.ahk` 後直接執行。
 
-## 📥 下載與安裝
+### 2\. 基本操作
 
-建議直接從右側的 [Releases](../../releases/latest) 下載最新編譯好的執行檔。
+1.  點擊 **⚙️ 管理監控路徑**：新增你想要監控的目錄。
+2.  點擊 **⏱️ 設定掃描頻率**：調整檢查檔案的時間間隔。
+3.  **📌 最上層顯示**：勾選後可將視窗置頂，方便隨時觀察日誌。
+4.  **右鍵功能表**：在日誌清單上點擊右鍵，可直接對檔案進行操作。
 
----
+## 📂 檔案說明
 
-## 📜 使用條款
+  * `Live_Folder_Monitor.exe`：主程式。
+  * `Live_Folder_Monitor_Settings.ini`：存儲監控清單與系統偏好設定。
+  * `Snapshots.dat`：存儲檔案快照資訊（若開啟離線偵測功能）。
+  * `Logs/`：自動生成的資料夾，存放每日監控記錄（`.txt`）。
 
-* **開發者**：林彥丞 (ArtLife Software)
-* **授權**：本工具僅供個人免費使用，未經授權禁止商業販售或用於盈利目的。
-* **免責聲明**：軟體按「現狀」提供，作者不對使用本工具產生的任何資料損失負責。
-* 
-<img width="626" height="485" alt="Live_Folder_Monitor_1 0 0_主視窗" src="https://github.com/user-attachments/assets/39ed993c-0a86-4059-8003-e713309c91b4" />
-<img width="526" height="344" alt="Live_Folder_Monitor_1 0 0_管理監控路徑" src="https://github.com/user-attachments/assets/301f7d1a-a31c-49f6-93ab-fd8c6f8d3a64" />
+## 🛠 開發環境
 
+  * **語言**：AutoHotkey v2.0
+  * **平台**：Windows 10 / 11 (x64)
+  * **授權**：GPL-3.0 License
+
+## 👤 關於作者
+
+  * **設計開發**：林彥丞
+  * **聯絡信箱**：[lin.yancheng@outlook.com](mailto:lin.yancheng@outlook.com)
+  * **GitHub**：[ArtLife-Software](https://github.com/ArtLife-Software)
+  * **社群交流**：[O & C VBA研究社 (Facebook)](https://www.facebook.com/groups/vba.club)
+
+-----
+
+*Copyright © 2026 林彥丞. Made with ❤️ in Taiwan (R.O.C)*
