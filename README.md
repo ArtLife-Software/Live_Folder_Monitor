@@ -7,10 +7,6 @@
 ![Latest Release](https://img.shields.io/github/v/release/ArtLife-Software/Live_Folder_Monitor?style=flat-square&color=blue)
 ![Downloads](https://img.shields.io/github/downloads/ArtLife-Software/Live_Folder_Monitor/total?style=flat-square&logo=github)
 
-[](https://opensource.org/licenses/GPL-3.0)
-[](https://www.autohotkey.com/)
-[](https://www.microsoft.com/windows)
-
 **Live Folder Monitor** 是一款功能強大的即時資料夾監控工具，基於 AutoHotkey v2 開發。它能追蹤本地或網路路徑（UNC）中的檔案變動（新增、修改、刪除），並提供視覺化的日誌管理與即時通知，非常適合開發人員或需要自動化檔案追蹤的使用者。
 
 ## ✨ 核心特色
