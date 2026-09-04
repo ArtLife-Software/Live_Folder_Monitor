@@ -45,7 +45,7 @@
 
   * **語言**：AutoHotkey v2.0
   * **平台**：Windows 10 / 11 (x64)
-  * **授權**：GPL-3.0 License
+  * **授權**：PolyForm-NC 1.0.0
 
 ## 👤 關於作者
 
