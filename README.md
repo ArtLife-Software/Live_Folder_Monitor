@@ -26,7 +26,6 @@
 ### 1\. 安裝與運行
 
   * **執行檔**：從 [Releases](https://github.com/ArtLife-Software) 下載最新編譯版本。
-  * **腳本運行**：確保已安裝 [AutoHotkey v2.0+](https://www.autohotkey.com/)，下載 `Live_Folder_Monitor.ahk` 後直接執行。
 
 ### 2\. 基本操作
 
